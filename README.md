@@ -28,3 +28,5 @@ Sin embargo, existen otras formas de crear una planta de formas más específica
 * **Helecho:** Se autoasignará el grupo y clase de la planta, para crearla se debe usar ```Planta p = new Helecho();```
 * **Gimnosperma:** Se autoasignará el grupo y clase de la planta, para crearla se debe usar ```Planta p = new Gimnosperma();```
 * **Angiosperma:** Se autoasignará el grupo y clase de la planta, para crearla se debe usar ```Planta p = new Angiosperma();```
+
+Si por alguna razón, no sabe cuál de las opciones de las ya mencionadas elegir, asegurese de usar ```Planta p = new Planta();```, donde los datos serán introducidos de forma manual y el grupo y clase de la planta serán saltados.
