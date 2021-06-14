@@ -11,7 +11,7 @@ Planta p = new Planta();
 p.setName("Cocos nucifera");
 p.setQuantity(5);
 
-ArrayList <Planta> plantas = new ArrayList<>();
+ArrayList <Planta> plantas = new ArrayList<>(); // Esta parte solo debe estar una vez, ya que este mismo arreglo tendrá a todas las plantas creadas
 
 plantas.add(p);
 ```
