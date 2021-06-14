@@ -5,15 +5,14 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Tomás Villasmil");
-		System.out.println("29.546.329\n");
+		System.out.println("TomÃ¡s Villasmil\n");
 
 		Planta p1 = new Planta();
 		p1.setName("Cocos nucifera");
 		p1.setQuantity(5);
 
 		Planta p2 = new conSemilla();
-		p2.setName("Manzano común");
+		p2.setName("Manzano comÃºn");
 		p2.setOrder("Rosales");
 		p2.setFamily("Rosaceae");
 		p2.setGenus("Malus");
