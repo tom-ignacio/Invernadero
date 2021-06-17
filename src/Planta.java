@@ -19,10 +19,6 @@ public class Planta {
 		this.quantity = quantity;
 	}
 
-	public void run() {}
-	
-	public void run(String algo) {}
-
 	public String getName() {
 		return name;
 	}
@@ -65,7 +61,7 @@ public class Planta {
 	
 	@Override
 	public String toString() {
-		return "\nNombre: " + this.getName() + "\nOrden: " + this.getOrder() + "\nFamilia: " + this.getFamily() + "\nGénero: " + this.getGenus() + "\nCantidad: " + this.getQuantity() + "\n";
+		return "\nNombre: " + this.getName() + "\nOrden: " + this.getOrder() + "\nFamilia: " + this.getFamily() + "\nGÃ©nero: " + this.getGenus() + "\nCantidad: " + this.getQuantity() + "\n";
 	};
 	
 }
