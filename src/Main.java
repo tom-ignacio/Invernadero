@@ -6,6 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Tomás Villasmil\n");
+		ArrayList <Planta> plantas = new ArrayList<>();
 
 		Planta p1 = new Planta();
 		p1.setName("Cocos nucifera");
@@ -29,8 +30,6 @@ public class Main {
 		p4.setGenus("Helianthus");
 		p4.setQuantity(28);
 
-
-		ArrayList <Planta> plantas = new ArrayList<>();
 		plantas.add(p1);
 		plantas.add(p2);
 		plantas.add(p3);
